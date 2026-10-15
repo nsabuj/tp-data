@@ -1,0 +1,85 @@
+{
+  "version": 4,
+  "updated": "2026-10-15",
+  "_readme": "certs = SHA-256 (lowercase hex, no colons) of the official signing certificate(s). Apps that rotated their key list every certificate in the lineage (old + new); a match on any one counts. Never add Google Play's 'Source Stamp' certificate (3257d599…): every Play app carries it. Read certs from a genuine Play install with: apksigner verify --print-certs base.apk. Empty certs = not checked yet.",
+  "apps": {
+    "com.whatsapp": {
+      "name": "WhatsApp",
+      "certs": [
+        "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
+        "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
+      ]
+    },
+    "com.whatsapp.w4b": {
+      "name": "WhatsApp Business",
+      "certs": [
+        "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
+        "fb920d381bee1b2093f27dc8f13d994da629dc91887d0529b35c9a2dc4f4a6c2"
+      ]
+    },
+    "com.facebook.katana": {
+      "name": "Facebook",
+      "certs": [
+        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1"
+      ]
+    },
+    "com.facebook.orca": {
+      "name": "Messenger",
+      "certs": [
+        "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1",
+        "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27"
+      ]
+    },
+    "com.instagram.android": {
+      "name": "Instagram",
+      "certs": [
+        "5f3e50f435583c9ae626302a71f7340044087a7e2c60adacfc254205a993e305",
+        "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014"
+      ]
+    },
+    "org.telegram.messenger": {
+      "name": "Telegram",
+      "certs": [
+        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+      ]
+    },
+    "com.zhiliaoapp.musically": {
+      "name": "TikTok",
+      "certs": [
+        "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba"
+      ]
+    },
+    "com.snapchat.android": {
+      "name": "Snapchat",
+      "certs": [
+        "2f1caafca1ed30d0b4e38863eefabea0e815711fa4cf79b822519a8259d95a58"
+      ]
+    },
+    "com.spotify.music": {
+      "name": "Spotify",
+      "certs": [
+        "6505b181933344f93893d586e399b94616183f04349cb572a9e81a3335e28ffd"
+      ]
+    },
+    "com.netflix.mediaclient": {
+      "name": "Netflix",
+      "certs": [
+        "363863596ea99241eb71b1a985553aa604de3ea3c5f0c546742390e682164e6b",
+        "86e17577ebe94bd64ff61590651863fb5a2d125f405fcbbf76ba0fe483a31d91"
+      ]
+    },
+    "com.google.android.youtube": {
+      "name": "YouTube",
+      "certs": [
+        "3d7a1223019aa39d9ea0e3436ab7c0896bfb4fb679f4de5fe7c23f326c8f994a",
+        "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6"
+      ]
+    }
+  },
+  "knownMods": {
+    "com.gbwhatsapp": "GBWhatsApp (modded WhatsApp)",
+    "com.fmwhatsapp": "FMWhatsApp (modded WhatsApp)",
+    "com.yowhatsapp": "YoWhatsApp (modded WhatsApp)"
+  },
+  "malwareHashes": []
+}
